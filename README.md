@@ -16,16 +16,16 @@ I used three different ML models on the data.The first two models displayed accu
 Here you will find the accuracy scores, loss scores, and parameters of the three machine learning models I used, along with what I did to increaase model performance.
 
 * Machine Learning Model 1: I used two hidden layers with activation function 'relu' and included 43 as the input (number of columns) along with 80 as the units (approximately double the input), with the following results:
-  - Accuracy Score: 72.68%
+  - Accuracy Score: 72.97%
   - Loss Score: 55.68% 
   
 * Machine Learning Model 2: I added another hidden layer, which improved the performance of the model but by a minimal amount, with the following results:
-  - Accuracy Score: 72.94%
-  - Loss Score: 55.76% 
+  - Accuracy Score: 72.79%
+  - Loss Score: 55.32% 
   
 * Machine Learning Model 3: Knowing the social sector due to my own professional experience and that organization names carry weight, I decided to keep the name column and bin all names with less than 10 occurrences as 'other'. This required an increased number of inputs (266 - number of columns) and units (530 - approximately double the input) and I decided to maintain 3 hidden layers, resulting in the following results:
-  - Accuracy Score: 78.39%
-  - Loss Score: 55.97% 
+  - Accuracy Score: 78.32%
+  - Loss Score: 54.76% 
   
 ## Summary
 
