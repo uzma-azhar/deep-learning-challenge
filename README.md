@@ -21,7 +21,7 @@ Here you will find the accuracy scores, loss scores, and parameters of the three
   
 * Machine Learning Model 2: I added another hidden layer, which improved the performance of the model but by a minimal amount, with the following results:
   - Accuracy Score: 72.79%
-  - Loss Score: 55.32% 
+  - Loss Score: 56.32% 
   
 * Machine Learning Model 3: Knowing the social sector due to my own professional experience and that organization names carry weight, I decided to keep the name column and bin all names with less than 10 occurrences as 'other'. This required an increased number of inputs (266 - number of columns) and units (530 - approximately double the input) and I decided to maintain 3 hidden layers, resulting in the following results:
   - Accuracy Score: 78.32%
