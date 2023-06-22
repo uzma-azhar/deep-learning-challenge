@@ -6,7 +6,7 @@ I used a dataset of historical funding decisions made by Alphabet Soup to build 
 
 ### Data Preprocessing
 
-The targets of the model was the variable named 'IS_SUCCESSFUL', which means was the monehy used effectively. 
+The targets of the model was the variable named 'IS_SUCCESSFUL', which means was the money used effectively. 
 The features of the model included application type, affiliation, classification, use case, organization type, status, income, special considerations, and funding amount requested. The EIN variable was removed from the input data as it was neither a target nor a feature. 
 
 I used three different ML models on the data.The first two models displayed accuracy rates of approximately 73% (which was less than the desired 75% rate) despite using different numbers of layers and nodes. However, keeping the names variable as a feature increased the accuracy rate of the model to 78%. 
@@ -23,10 +23,10 @@ Here you will find the accuracy scores, loss scores, and parameters of the three
   - Accuracy Score: 72.94%
   - Loss Score: 55.76% 
   
-* Machine Learning Model 3: Knowing the social sector due to my own professional experience and that organization names carry weight, I decided to keep the name column and bin all names with less than 10 occurences as 'other'. This required an increased number of inputs (266 - number of columns) and units (530 - approximately double the input) and I decided to maintain 3 hidden layers, resulting in the following results:
+* Machine Learning Model 3: Knowing the social sector due to my own professional experience and that organization names carry weight, I decided to keep the name column and bin all names with less than 10 occurrences as 'other'. This required an increased number of inputs (266 - number of columns) and units (530 - approximately double the input) and I decided to maintain 3 hidden layers, resulting in the following results:
   - Accuracy Score: 78.39%
   - Loss Score: 55.97% 
   
 ## Summary
 
-The third machine learning model performs best as it has a higher accuracy score - it will be correct nearly 80% of the time. This model takes into account the organization that is applying for funding, which is crucial in determing the previous track records of organizations and if they have the best chances of success in their ventures.
+The third machine learning model performs best as it has a higher accuracy score - it will be correct nearly 80% of the time. This model takes into account the organization that is applying for funding, which is crucial to determine the previous track records of organizations and if they have the best chances of success in their ventures.
